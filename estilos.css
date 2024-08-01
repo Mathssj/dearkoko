@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Fondo de la página */
+}
+
+body {
+    background: none; /* Elimina cualquier fondo en el body */
+    flex-direction: column; /* Cambia la dirección del flujo del contenido */
+}
+
+audio {
+    margin-bottom: 20px; /* Añade un margen inferior para separar el audio del contenido */
+}
+
+.contenedor {
+    background: url('carta.jfif') center/contain no-repeat; /* Imagen de fondo centrada y contenida */
+    width: 800px; /* Ajusta el ancho según sea necesario */
+    height: 1000px; /* Ajusta la altura según sea necesario */
+    text-align: left;
+    padding: 200px 100px 0 100px; /* Ajusta el padding para que el texto se alinee con las líneas de la carta */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    line-height: 2; /* Ajusta el espacio entre líneas para que coincida con las líneas de la carta */
+    font-size: 18px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-family: 'Times New Roman', Times, serif; /* Fuente para un estilo de carta */
+    color: #000; /* Color del texto más oscuro */
+}
